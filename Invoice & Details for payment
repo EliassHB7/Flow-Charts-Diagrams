@@ -1,4 +1,4 @@
-## Go to Mermaid link in the description
+## Go to Mermaid: https://mermaid-js.github.io/mermaid-live-editor/
 
 graph TB
     A[Overdue] -->
