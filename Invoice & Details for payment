@@ -1,3 +1,5 @@
+## Go to Mermaid link in the description
+
 graph TB
     A[Overdue] -->
     |Invoice & calculation details available| E(Accept to Check)
