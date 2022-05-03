@@ -1,0 +1,10 @@
+graph TB
+    A[Overdue] -->
+    |Invoice & calculation details available| E(Accept to Check)
+    A --> |Invoice & Calculation details wrong or not available| B(Ask partner entity to send invoice + details)
+    B --> |Partner does not have details| D[Ask partner to cancel invoice]
+    B --> |Partner sends details| E
+    E --> F(Check list of contact people by section)
+    F --> G(Ask to approve and make eproc)
+    G --> |Requester approves| J[Requester makes an eproc PO to pay]
+    G --> |Requester does not approve| D
